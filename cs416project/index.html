@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+  <title>CS416 Project</title>
+</head>
+<body>
+  <h1>Leading Causes of Death in the US Visualization - Scene 1</h1>
+  <div id="scene1" class="scene-container">
+    <h2>Total Deaths Over Time </h2>
+    <p>This visualzation allows users to gain an understanding of the trends in Deaths in the United States</p>
+    <p>This first graph puts in context how many total deaths there are in each state</p>
+    <p>Hover to get exact number</p>
+    <div id="stateDropdown">
+      <label for="state-select">Select state:</label>
+      <select id="state-select"></select>
+    </div>
+    <div id="chart1"></div>
+    <a href="index2.html" class="nav-button">Next: Scene 2</a>
+  </div>
+
+  <!-- Import the script.js file -->
+  <script src="script.js"></script>
+</body>
+</html>

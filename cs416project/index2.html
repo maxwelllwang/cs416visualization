@@ -1,0 +1,38 @@
+<!-- index2.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CS416 Project</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+</head>
+
+<body>
+  <h1>Leading Causes of Death in the US Visualization - Scene 2</h1>
+  <div id="stateDropdown">
+
+    <!-- Scene 2: Relationship between Movie Budget and Gross Revenue -->
+    <div id="scene2" class="scene-container">
+      <h2>Types of death over time</h2>
+      <p>Here you can see for each state the trends of different causes of death over time</p>
+      <p>Hover over the line to see the cause</p>
+      <p>* Note as a proportion of total deaths</p>
+      <label for="state-select">Select state:</label>
+      <select id="state-select"></select>
+      <div id="chart2"></div>
+
+    </div>
+    <!-- Navigation button back to Scene 1 -->
+    <a href="index.html" class="nav-button">Previous: Scene 1</a>
+    <!-- Navigation button forward to Scene 3 -->
+    <a href="index3.html" class="nav-button">Next: Scene 3</a>
+  </div>
+  <!-- Import the script2.js file for Scene 2 -->
+  <script src="script2.js"></script>
+</body>
+
+</html>

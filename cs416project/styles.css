@@ -1,0 +1,128 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.nav-button {
+  margin-right: 300px;
+}
+
+/* Scene containers */
+.scene-container {
+  margin: 20px;
+}
+
+/* Charts */
+#chart1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#chart2 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#chart3 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Dropdown */
+#yearDropdown,
+#filterSection,
+#votesSlider {
+  margin-top: 10px;
+}
+#filter-container {
+  margin-bottom: 10px;
+}
+#search-filter {
+  width: 300px;
+}
+#company-filter {
+  height: 200px;
+  width: 300px;
+}
+
+/* Dropdown label */
+#yearDropdown label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Dropdown select element */
+#year-select {
+  width: 150px;
+  padding: 5px;
+}
+
+/* Bar chart bars */
+.bar {
+  fill: rgb(177, 129, 169);
+}
+
+/* X and Y axis */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #ccc;
+}
+.line {
+  stroke: blue;
+  fill: none;
+  stroke-width: 2px;  /* adjust this value to make the line thicker or thinner */
+
+}
+
+.axis text {
+  font-size: 12px;
+}
+
+/* Annotations */
+.annotation-note-bg {
+  color:white;
+  fill: rgb(221, 195, 217);
+  fill-opacity: 5;
+  stroke: #ccc;
+  stroke-width: 3;
+}
+
+.annotation-note {
+  color:#ffff;
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.annotation-subject {
+  color:#ffff;
+  font-size: 14px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.annotation-subject-bg {
+  color:#ffff;
+  fill: #6f0d5d;
+  stroke-width: 1;
+}
+
+#votesSlider label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#votes-slider {
+  width: 300px;
+}
+
+#votes-value {
+  font-size: 12px;
+}

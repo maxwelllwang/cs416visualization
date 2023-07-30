@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+  <title>CS416 Project - Scene 3</title>
+</head>
+
+<body>
+  <h1>Leading Causes of Death in the US Visualization - Scene 3</h1>
+  <!-- Scene 3: Bubble Chart for Budget, Gross Revenue, and IMDb Score by Genre -->
+  <div id="scene3" class="scene-container">
+    <h2>Overview of Death Types Pie chart per states for each year</h2>
+    <p>Here we can see more clearly the proportion of each cause of death in a state per year</p>
+    <label for="state-select">Select state:</label>
+    <select id="state-select"></select>
+    <div id="slider-container">
+      <label for="year-slider"> Select Year:</label>
+      <input type="range" id="year-slider" name="year-slider" min="1999" max="2017" step="1" value="1999">
+      <span id="year-display">1999</span>
+    </div>
+    <div id="chart3"></div>
+    <!-- Slider and labels for IMDb rating range -->
+
+    <!-- Navigation button back to Scene 2 -->
+    <a href="index2.html" class="nav-button">Previous: Scene 2</a>
+  </div>
+
+  <!-- Import the script3.js file -->
+  <script src="script3.js"></script>
+</body>
+
+</html>
